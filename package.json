@@ -31,9 +31,11 @@
       "dist/nodes/VatValidator/VatValidator.node.js"
     ]
   },
+  "dependencies": {
+    "typescript": "^5.0.0"
+  },
   "devDependencies": {
     "@types/node": "^20.0.0",
-    "n8n-workflow": "^1.0.0",
-    "typescript": "^5.0.0"
+    "n8n-workflow": "^1.0.0"
   }
 }
