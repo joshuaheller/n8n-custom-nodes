@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-vat-validator",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "n8n custom node to validate EU VAT numbers via the official VIES SOAP API",
   "keywords": [
     "n8n-community-node-package",
@@ -22,8 +22,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch",
-    "prepare": "npm run build"
+    "dev": "tsc --watch"
   },
   "n8n": {
     "n8nNodesApiVersion": 1,

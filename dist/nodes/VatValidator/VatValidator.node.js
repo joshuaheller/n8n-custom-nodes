@@ -108,7 +108,7 @@ class VatValidator {
             // Use a built-in n8n icon or a simple unicode character as fallback
             icon: 'fa:check-circle',
             group: ['transform'],
-            version: 1,
+            version: 2,
             description: 'Validates EU VAT numbers via the official VIES API',
             defaults: {
                 name: 'VAT Validator',
