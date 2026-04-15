@@ -110,7 +110,6 @@ export class VatValidator implements INodeType {
 				name: 'countryCode',
 				type: 'string',
 				default: '',
-				required: true,
 				placeholder: 'DE',
 				description: '2-letter EU country code. Leave blank to auto-detect from the VAT number prefix.',
 			},
